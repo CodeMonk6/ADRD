@@ -13,9 +13,12 @@ The first build answers one flagship question end-to-end:
 with the mechanistic spine `APOE4 → lipid transport → microglial lipid-droplet state →
 inflammatory signaling → tau propagation → neurodegeneration`.
 
-> **Status:** runs end-to-end on the full Docker stack, grounded in real Alzheimer's genetic
-> associations from Open Targets. The flagship workflow produces causal-gated, citation-verified
-> hypotheses with executable experiment plans, every step traceable and gated for expert sign-off.
+> **Status — live:** deployed and running end-to-end. A web workbench calls a hosted backend that
+> bundles the full stack (knowledge graph, vector + keyword search, app database, job queue) and seeds
+> itself on boot. Grounded in real Alzheimer's genetic associations from Open Targets, the flagship
+> workflow produces causal-gated, citation-verified hypotheses with executable experiment plans —
+> every step traceable and gated for expert sign-off. A real run is verified through the public URL
+> (top hypothesis causal-gated; closed-loop computational experiment reproducibility 0.80).
 
 ---
 
