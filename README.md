@@ -13,6 +13,10 @@ The first build answers one flagship question end-to-end:
 with the mechanistic spine `APOE4 → lipid transport → microglial lipid-droplet state →
 inflammatory signaling → tau propagation → neurodegeneration`.
 
+> **Status:** runs end-to-end on the full Docker stack, grounded in real Alzheimer's genetic
+> associations from Open Targets. The flagship workflow produces causal-gated, citation-verified
+> hypotheses with executable experiment plans, every step traceable and gated for expert sign-off.
+
 ---
 
 ## What makes it different
@@ -79,6 +83,7 @@ make up                  # build + start: postgres · neo4j · qdrant · opensea
 make bootstrap           # init Postgres tables + Qdrant collection + OpenSearch index
 make kg-init             # create NeuroKG schema/constraints
 make ingest              # ingest the curated seed corpus for the flagship workflow
+make ingest-live         # (optional) add REAL data: Open Targets genetic anchors + bounded PubMed
 make demo                # run the flagship workflow end-to-end and print the output package
 ```
 
